@@ -70,14 +70,22 @@ a{text-decoration: none;color: white;}
     justify-content: center;
 }
 
-.contact_me {
+.contact_me-body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
-.contact_me a {
+.contact_me-body a {
     text-decoration: none;
     color: #222;
+}
+.Hero{margin-bottom: 0;}
+.contact_me{
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+    color:#FFFFFF;
+    background-image: url('https://media.istockphoto.com/id/1221025677/photo/abstract-blue-background-minimal-geometric-background-for-use-in-design.jpg?b=1&s=170667a&w=0&k=20&c=GQ8738yB4Z4N5CL_CgmIorvl9nTOXFTvgZYCV3trRHE=');
 }
