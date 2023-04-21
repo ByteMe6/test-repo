@@ -2,34 +2,50 @@
 <html>
 
 <head>
-    <meta charset='UTF-16'>
+    <meta charset='UTF-8'>
     <title> Test repo </title>
     <link rel="stylesheet" href='./css/style.css'>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.4.0/css/all.css" integrity="a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-wSWn1ZpdFcj11pRu8nRgYpWrN5kCzEfdNtyhNqujO+5g59aQ2VB/5xjKcXBFtG0Bt/Fyv3zqnyW8rLDGBCZcMw=="
+        crossorigin="anonymous" />
 
 </head>
 
 <body>
-
     <header style='position: fixed; ' class="header">
         I am small site - maker (front end developer) <br /> You can buy site (for 1$) <br /> Tg: @coder_2
     </header>
-    <br/>
+    <br />
     <main>
-            <section class="Hero">
-                <div class="Hero-body">
+        <section class="Hero">
+            <div class="Hero-body">
                 <h1>I wait for your order</h1>
                 <button> <a href="https://t.me/coder_2">Order!</a></button>
-                </div>
-            </section>
-            <section class="contact_me">
-                <div class="gmail">
-                    
-                </div>
-                <div class="phone_number"> <a href='callto:+380507054631'> <i class="fa-phone" style="color: #005eff;"></i> </a>  </div>
-                <div class="telgeram"></div>
-                <div class="github"></div>
-            </section>
+            </div>
+        </section>
+        <section class="contact_me">
+            <div class="gmail"> <a href="mailto:tsapiy.yurka@gmail.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DAGVc_HTWTlGC-jabuzX8DEMbja3SeFyaLMtoh3X&s" alt="" height="27px"></a> </div>
+            <div class="phone_number"> <a href='callto:+380507054631'>📱</a></div>
+            <style>
+                .contact_me a {
+                    display: inline-block;
+                    position: relative;
+                    border: 2px solid #000000;
+                    border-radius: 50%;
+                    padding: 5px;
+                    transition: all 0.3s ease-in-out;
+                }
+
+                .contact_me a:hover {
+                    border-color: #FFA500;
+                    transform: scale(1.2);
+                    box-shadow: 0 0 10px #FFA500;
+                }
+            </style>
+            <div class="telgeram"> <a href="https://t.me/coder_2"> <img src="https://cdn-icons-png.flaticon.com/512/408/408737.png" alt="t." height="25px"></a> </div>
+            <div class="github"> <a href="https://github.com/Yurka2012"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="g." height="27px"> </a> </div>
+        </section>
     </main>
 </body>
 
